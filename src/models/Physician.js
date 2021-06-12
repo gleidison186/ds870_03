@@ -1,5 +1,6 @@
 const Sequelize = require("sequelize");
 
+
 class Physician extends Sequelize.Model {
 	static init(sequelize) {
 		super.init(
