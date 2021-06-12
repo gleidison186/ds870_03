@@ -15,7 +15,7 @@ class Appointments extends Sequelize.Model {
 
 	static associate(models) {
 		this.belongsTo(models.Physician, { foreignKey: "physicianId" }),
-        this.belongsTo(models.Patient, { foreignKey: "PatientId" })
+        this.belongsTo(models.Patient, { foreignKey: "patientId" })
 	}
 }
 
